@@ -1,24 +1,286 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Sesión 10: Curación Humana de la Estética Funcional IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 10: Curación Humana de la Estética Funcional IA</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Que los estudiantes analicen un diseño generado por IA que es 100% funcional pero estéticamente no convencional.</li>
+                                        <li>Que asuman el rol de "curadores humanos", refinando el diseño para añadir valor estético y ergonómico.</li>
+                                        <li>Que comprendan y apliquen el concepto de 'Human-in-the-Loop' en un caso práctico.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">⚡Saludo Interactivo con IA:</strong> Activación y contextualización de la misión.</li>
+                                        <li><strong class="tactic-highlight">⚡"I Can Statement" + Desafío:</strong> Clarificación de objetivos y presentación del reto del día.</li>
+                                        <li><strong class="tactic-highlight">⚡AI GYM:</strong> Diálogo estratégico con Xolo para la conceptualización.</li>
+                                        <li><strong class="tactic-highlight">⚡Brain Spark:</strong> Ejecución técnica y práctica aumentada por la Dupla Dinámica.</li>
+                                        <li><strong class="tactic-highlight">⚡Gnius STORM:</strong> Showcase de prototipos, síntesis y reflexión.</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Una nueva versión de la pieza optimizada por IA, ahora "curada" con refinamientos estéticos y ergonómicos.</li>
+                                        <li>La pieza debe guardarse como una nueva versión, por ejemplo, "Pieza Curada v1".</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Cuentas de Onshape para cada alumno.</li>
+                                        <li>Chat "Agente Gnius" (Xolo) activo y funcionando.</li>
+                                        <li>Un archivo de Onshape con la pieza optimizada por IA, listo para ser distribuido a los estudiantes.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-11).</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Asegurar que Xolo y Onshape funcionan correctamente.</li>
+                                                <li>Tener el archivo Onshape de la pieza optimizada listo para compartir.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Repasar las tres "Estrategias de Curación" y estar preparado para guiar la discusión filosófica sobre estética y autoría.</li>
+                                        <li><strong>Preparación de Ejemplos:</strong> Tener una versión "curada" de la pieza como ejemplo de lo que se puede lograr, aplicando herramientas como Loft y Fillet.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de IA y Contexto ⏰ 3 minutos</h2>
+                <p>Introducir la sesión como un desafío que trasciende la funcionalidad para explorar la estética y el diseño "para humanos".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Contexto de la Misión ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 2) El facilitador presenta el desafío de darle "alma" a un diseño creado por una lógica de máquina.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Saludos, directores de diseño. Han demostrado una gran competencia técnica. Saben cómo hacer que las cosas funcionen. Hoy, abordamos una pregunta diferente y más sutil: ¿cómo hacer que funcionen *para los humanos*? La funcionalidad pura a menudo carece de alma. Hoy, su desafío es tomar un diseño creado por una lógica de máquina pura y darle un toque humano: la estética.</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación de la IA ⏰ 2 minutos</h3>
+                            <p>El facilitador guía a los alumnos para que inicien su sesión de trabajo con Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Procedan con el inicio de sesión: 'Hola Xolo, listo para la Misión 10', seguido de su nombre, perfil y gustos. Esperen su confirmación para comenzar este desafío estético.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: "I Can Statement" y Presentación del Desafío ⏰ 7 minutos</h2>
+                <p>Presentar el "Dilema Estético" y definir el rol del estudiante como "curador" de la tecnología.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Presentando el Dilema Estético y el Rol del Curador ⏰ 4 minutos</h3>
+                            <p>(Proyectar Diapositiva 3) El facilitador muestra la pieza optimizada por IA y establece el nuevo rol del estudiante.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Voy a mostrarles una pieza. (Proyecta la imagen de la pieza optimizada). Esta pieza fue diseñada por una IA para ser 'perfecta' en ingeniería: máxima resistencia con mínimo material. Pero, ¿la pondrían en un producto de consumo? ¿Es agradable al tacto? Aquí es donde su rol como diseñadores humanos se vuelve irremplazable. La IA optimiza para la función. Ustedes optimizan para la *experiencia humana*. Su misión hoy no es crear desde cero, sino **curar**: tomar esta forma y refinarla con la capa estética que solo un humano puede juzgar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Declaración del "I Can Statement" ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 4) El facilitador presenta el objetivo de aprendizaje de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">El objetivo de hoy es un rol completamente nuevo. Al final de la sesión, podrán decir: <strong>'Yo entiendo el concepto de 'Human-in-the-Loop', y puedo tomar un diseño funcional generado por IA y refinarlo para mejorar su valor estético y humano.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: A.I. GYM (El Humano-en-el-Bucle y la Curación) ⏰ 15 minutos</h2>
+                <p>Fase de diálogo con Xolo para entender la diferencia entre estética funcional y humana, y aprender estrategias concretas de curación.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Estética Funcional vs. Estética Humana ⏰ 7 minutos</h3>
+                            <p>(Proyectar Diapositiva 5) Los estudiantes consultan a Xolo sobre su nuevo rol como "curador de arte" y la diferencia entre ambos tipos de estética.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Entremos al A.I. GYM. Hoy, el rol de Xolo no es de ingeniero, sino de curador de arte. Para entender este nuevo enfoque, consúltenle: <strong>'Xolo, explícame la diferencia entre estética funcional y estética humana.'</strong> Su respuesta les dará el marco para este desafío.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Estrategias de Curación Humana ⏰ 8 minutos</h3>
+                            <p>(Proyectar Diapositiva 6) Los estudiantes consultan a Xolo sobre las estrategias específicas para refinar el diseño de la IA.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">No vamos a rediseñar desde cero. Vamos a "envolver" o "suavizar" la forma existente. Para conocer las técnicas, pregunten a Xolo: <strong>'Xolo, descríbeme tres estrategias de curación humana, como 'Piel Estética', 'Suavizar Transiciones' y 'Añadir Peso Visual'.'</strong> Pongan atención a las herramientas de Onshape que esto podría implicar, como 'Loft' o 'Fillet'.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark (Curación del Diseño IA) ⏰ 10 minutos</h2>
+                <p>Fase de trabajo práctico donde los estudiantes analizan la pieza de IA, planifican su estrategia de curación y la ejecutan.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Análisis, Plan y Ejecución del Refinamiento ⏰ 10 minutos</h3>
+                            <p>(Proyectar Diapositiva 7) Los estudiantes reciben la pieza, la analizan, dialogan con Xolo y aplican la curación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, al Brain Spark. Les compartiré el archivo de la pieza optimizada. Ábranlo en Onshape y analícenlo críticamente: ¿qué partes son problemáticas? Luego, dialoguen con Xolo sobre su plan: **'Quiero aplicar la estrategia de 'piel estética' para suavizar estas superficies.'** Xolo les recordará que esto puede implicar herramientas como 'Loft'. Usen el ciclo de consulta para aplicar la técnica y ejecutar su curación. Guarden el resultado como "Pieza Curada v1".</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM (Cierre de Sesión) ⏰ 5 minutos</h2>
+                <p>Fase final de "Galería de Curación" donde los estudiantes muestran el antes y el después, explicando sus decisiones de diseño.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Think (Reflexión Individual) ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 8) El facilitador guía una reflexión sobre la decisión de curación tomada.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">
+                                     Tiempo. Observen su pieza "antes" y "después". Prepárense para explicar su proceso de curación: <strong>¿Qué problema estético o ergonómico identificaron, y qué estrategia de curación usaron para resolverlo?</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Pair (Galería de Curación) ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 9) Los estudiantes se muestran mutuamente el antes y después de sus piezas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">
+                                    En parejas, es la "Galería de Curación". Muestren en sus pantallas el antes y el después. Expliquen a su compañero su decisión de diseño, justificando por qué su versión curada mejora la experiencia humana del objeto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Share (Síntesis y Cierre del Módulo) ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 10) El facilitador consolida la sesión, destacando el valor de la colaboración Humano-IA.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">
+                                    Observen la diferencia. Han tomado la lógica fría de una máquina y le han infundido intención, empatía y criterio. No han desechado el trabajo de la IA, lo han elevado. Este proceso, la curación, es uno de los roles de mayor valor para los diseñadores del futuro. No compiten con la IA, colaboran con ella. Han completado el Módulo 2. Están listos para el siguiente nivel: diseñar para humanos y máquinas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
